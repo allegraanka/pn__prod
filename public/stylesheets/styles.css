@@ -1,0 +1,49 @@
+body {
+    background: #fffffe;
+    color: #2b2c34;
+}
+
+.title {
+    margin: 10% 10% 0 10%;
+    font-size: 4rem;
+}
+
+.content-container {
+    width: 50%;
+    margin: 2% 10%;
+}
+
+.interaction {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: #6246ea;
+    color: #fffffe;
+}
+
+.interaction:hover {
+    cursor: pointer;
+}
+
+/* inline checkout styles */
+
+.tp-modal .tp-close.tp-active {
+    display: none !important;
+}
+
+.tp-backdrop.tp-active {
+    display: none !important;
+}
+
+.tp-iframe-wrapper {
+    position: fixed !important;
+    right: 125px !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+
+.tp-modal {
+    position: fixed !important;
+    top: 150px !important;
+    right: 0 !important;
+}
