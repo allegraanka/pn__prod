@@ -40,7 +40,7 @@
                     templateId: params.templateId
                 }
                 console.log(`user response data: ${JSON.stringify(userResponseData)}`);
-                tp.offer.close();
+                tp.template.close();
         }
     }]);
 
