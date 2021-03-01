@@ -1,8 +1,8 @@
 (function () {
     tp = window["tp"] || [];
 
-    tp.push(["setAid", '0HpDmXybsu']);
-    tp.push(["setEndpoint", 'https://sandbox.tinypass.com/api/v3']);
+    tp.push(["setAid", 'zRp4JFA6pu']);
+    tp.push(["setEndpoint", 'https://buy.tinypass.com/api/v3']);
     tp.push(["setUseTinypassAccounts", false ]);
     tp.push(["setUsePianoIdUserProvider", true ]);
 
@@ -52,4 +52,4 @@
     }]);
 })();
 
-(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("//sandbox.tinypass.com/api/tinypass.min.js");
+(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("//cdn.tinypass.com/api/tinypass.min.js");
