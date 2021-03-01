@@ -39,8 +39,11 @@
                     iframeId: params.iframeId,
                     templateId: params.templateId
                 }
+
                 console.log(`user response data: ${JSON.stringify(userResponseData)}`);
+
                 tp.template.close();
+                console.log('micro survey was completed and closed.');
         }
     }]);
 
